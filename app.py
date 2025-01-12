@@ -41,3 +41,4 @@ if show_scatter:
     st.write('Criando um gráfico de dispersão para o conjunto de dados.')
     fig_scatter = px.scatter(car_data, x="odometer", y="price", title="Preço vs Quilometragem")
     st.plotly_chart(fig_scatter, use_container_width=True)
+
